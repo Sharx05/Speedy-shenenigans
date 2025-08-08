@@ -1,95 +1,95 @@
 <img width="3188" height="1202" alt="frame (3)" src="https://github.com/user-attachments/assets/517ad8e9-ad22-457d-9538-a9e62d137cd7" />
 
 
-# [Project Name] 🎯
+# MicroFortnight Clock 🎯
 
 
 ## Basic Details
-### Team Name: [Code Duo]
+### Team Name: Code Duo
 
 
 ### Team Members
-- Team Lead: [Shakirath ul Mubishira] - [College of Engineering Perumon]
-- Member 2: [Sharath H] - [College of Engineering Perumon]
+- Team Lead: Shakirath ul Mubishira - College of Engineering Perumon
+- Member 2: Sharath H - College of Engineering Perumon
 
 ### Project Description
-[2-3 lines about what your project does]
+A playful web app that tells time in absurd units like microfortnights, beard-seconds, jiffies, and Smoots/day. Smooth animations, a unit randomizer, and tongue-in-cheek achievements make waiting feel scientifically silly.
 
 ### The Problem (that doesn't exist)
-[What ridiculous problem are you solving?]
+Normal clocks are too useful and sensible. Where’s the whimsy in knowing it’s 3:27 PM when you could know it’s 8.9 million microfortnights past brunch?
 
 ### The Solution (that nobody asked for)
-[How are you solving it? Keep it fun!]
+A React app that converts the current time into niche and nonsensical units, with animated transitions, a unit picker, and a never-ending sense of progress.
 
 ## Technical Details
 ### Technologies/Components Used
 For Software:
-- [Languages used]
-- [Frameworks used]
-- [Libraries used]
-- [Tools used]
+- Languages: TypeScript
+- Frameworks: React, Vite
+- Libraries: Tailwind CSS, dayjs, framer-motion, clsx
+- Tools: pnpm, ESLint, Prettier, GitHub Pages (or Vercel) for deploy
 
 For Hardware:
-- [List main components]
-- [List specifications]
-- [List tools required]
+- N/A
 
 ### Implementation
 For Software:
 # Installation
-[commands]
+- Ensure Node.js >= 18 and pnpm installed
+- Clone repo
+- pnpm install
 
 # Run
-[commands]
+- pnpm dev (start the dev server)
+- pnpm build (production build)
+- pnpm preview (preview production build)
+
+Key Modules (planned):
+- `units.ts`: conversions for microfortnight, beard-second, jiffy, Smoots/day, dog-years/min, and more
+- `useTimeStore.ts`: reactive time ticker and selected unit state
+- `Clock.tsx`: main display with animated transitions
+- `UnitPicker.tsx`: select or randomize units
+- `AchievementToast.tsx`: playful milestones at arbitrary thresholds
 
 ### Project Documentation
 For Software:
 
 # Screenshots (Add at least 3)
 ![Screenshot1](Add screenshot 1 here with proper name)
-*Add caption explaining what this shows*
+Main clock showing time in microfortnights with animated digits.
 
 ![Screenshot2](Add screenshot 2 here with proper name)
-*Add caption explaining what this shows*
+Unit picker with descriptions and a “Randomize Unit” button.
 
 ![Screenshot3](Add screenshot 3 here with proper name)
-*Add caption explaining what this shows*
+Achievement toast celebrating a totally meaningless milestone.
 
 # Diagrams
 ![Workflow](Add your workflow/architecture diagram here)
-*Add caption explaining your workflow*
+High-level flow: Ticker -> Conversion -> Animation -> UI Components.
 
 For Hardware:
 
 # Schematic & Circuit
-![Circuit](Add your circuit diagram here)
-*Add caption explaining connections*
-
-![Schematic](Add your schematic diagram here)
-*Add caption explaining the schematic*
+N/A
 
 # Build Photos
-![Components](Add photo of your components here)
-*List out all components shown*
+N/A
 
-![Build](Add photos of build process here)
-*Explain the build steps*
-
-![Final](Add photo of final product here)
-*Explain the final build*
+# Final
+N/A
 
 ### Project Demo
 # Video
 [Add your demo video link here]
-*Explain what the video demonstrates*
+Shows the live clock, switching units, randomizer, and achievement pop-ups.
 
 # Additional Demos
 [Add any extra demo materials/links]
 
 ## Team Contributions
-- [Name 1]: [Specific contributions]
-- [Name 2]: [Specific contributions]
-- [Name 3]: [Specific contributions]
+- Shakirath ul Mubishira: UI/UX, animations (framer-motion), app structure
+- Sharath H: time-unit conversions, state management, build & deploy
 
 ---
 Made with ❤️ at TinkerHub Useless Projects 
