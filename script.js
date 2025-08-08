@@ -8,7 +8,7 @@ const lastComment = document.getElementById('lastComment');
 const timerDisplay = document.getElementById('timer');
 
 // --- Configuration ---
-const checkInterval = 30 * 1000; // 30 seconds in milliseconds
+const checkInterval = 20 * 1000; // 30 seconds in milliseconds
 const imageURL = 'https://placehold.co/1000x1000/000000/FFFFFF?text=Test-File'; // A 1MB test file
 const imageSizeInBytes = 1000 * 1000; // The size of the file in bytes
 
@@ -21,31 +21,31 @@ const speedTiers = [
         maxSpeed: 1,
         comment: "Are you serious right now?",
         // Replace with your own audio file URL or local path
-        audioSrc: "sounds/pavanai.mp3" 
+        audioSrc: "sounds/error.mp3"
     },
     {
         minSpeed: 1,
         maxSpeed: 2,
         comment: "My grandma's dial-up was faster.",
          // Replace with your own audio file URL or local path
-        audioSrc: "sounds/alert.mp3"
+        audioSrc: "sounds/pavani.mp3"
     },
     {
         minSpeed: 2,
-        maxSpeed: 6,
+        maxSpeed: 5,
         comment: "It's... acceptable.",
          // Replace with your own audio file URL or local path
         audioSrc: "https://www.myinstants.com/media/sounds/wow_9.mp3"
     },
     {
-        minSpeed: 6,
-        maxSpeed: 10,
+        minSpeed: 5,
+        maxSpeed: 20,
         comment: "Okay, now we're talking!",
          // Replace with your own audio file URL or local path
         audioSrc: "https://www.myinstants.com/media/sounds/nice-shot.mp3"
     },
     {
-        minSpeed: 200,
+        minSpeed: 20,
         maxSpeed: Infinity, // Catches everything above 200
         comment: "UNLIMITED POWER!",
          // Replace with your own audio file URL or local path
@@ -104,13 +104,16 @@ async function measureSpeed() {
         await response.blob();
         const endTime = new Date().getTime();
         
+        // Calculate duration *before* using it
+        const durationInSeconds = (endTime - startTime) / 1000;
+
+        // Check if the download was too fast to measure accurately
         if (durationInSeconds < 0.1) {
             console.warn("Download was too fast to measure accurately. Assuming very high speed.");
             updateUI(500);
             return;
         }
         
-        const durationInSeconds = (endTime - startTime) / 1000;
         const speedBps = (imageSizeInBytes * 8) / durationInSeconds;
         const speedMbps = (speedBps / (1024 * 1024)).toFixed(2);
         updateUI(speedMbps);
