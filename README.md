@@ -29,10 +29,7 @@ For Software:
 - React, TypeScript, Vite, TailwindCSS, Shadcn/UI, Radix UI, React Router DOM, React Hook Form, Zod, Recharts, date-fns, TanStack React Query, Lucide React.
 - Gemini, chatgpt,deepseek,meta,claude,github copilot
 
-For Hardware:
-- [List main components]
-- [List specifications]
-- [List tools required]
+
 
 ### Implementation
 For Software:
