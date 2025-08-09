@@ -26,7 +26,7 @@ We made a website to make aware  the user's about the  data speed and we provide
 For Software:
 - Html,css,typescript
 - vite
-- [Libraries used]
+- React
 - Gemini, chatgpt,deepseek,meta,claude,github copilot
 
 For Hardware:
