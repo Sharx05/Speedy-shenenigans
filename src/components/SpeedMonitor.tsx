@@ -305,7 +305,7 @@ const SpeedMonitor = () => {
           {/* Header */}
           <div className="space-y-4">
             <h1 className="text-4xl md:text-5xl font-bold text-gradient">
-              Internet Speed Meme Notifier
+              Speedy Shenenigans
             </h1>
             <p className="text-muted-foreground text-lg">
               I'll check your internet speed every 30 seconds and roast your connection.
