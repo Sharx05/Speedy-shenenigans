@@ -65,9 +65,19 @@ npm run build
 npm run preview
 
 # Run
-[commands]
 
-### Project Documentation
+## Start the development server
+npm run dev
+## Then open http://localhost:5173/ in your browser
+
+## Build for production
+npm run build
+
+## Preview the production build
+npm run preview
+
+
+## Project Documentation
 For Software:
 
 # Screenshots (Add at least 3)
