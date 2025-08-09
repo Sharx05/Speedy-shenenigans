@@ -37,7 +37,32 @@ For Hardware:
 ### Implementation
 For Software:
 # Installation
-[commands]
+
+**Prerequisites**
+- Node.js v18 or later – [Download here](https://nodejs.org/)
+- npm (comes with Node.js) or yarn / pnpm (optional)
+
+**Steps**
+### 1️⃣ Clone the repository
+git clone https://github.com/Sharx05/Speedy-shenenigans.git
+cd Speedy-shenenigans
+
+### 2️⃣ Install dependencies
+npm install
+### or
+yarn install
+### or
+pnpm install
+
+### 3️⃣ Start the development server
+npm run dev
+### Then open http://localhost:5173/ in your browser
+
+### 4️⃣ Build for production
+npm run build
+
+### 5️⃣ Preview the production build
+npm run preview
 
 # Run
 [commands]
