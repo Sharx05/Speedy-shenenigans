@@ -84,10 +84,11 @@ For Software:
 ![WhatsApp Image 2025-08-09 at 06 40 47_250e309f](https://github.com/user-attachments/assets/65977c9a-a937-4cae-8a41-3c2d9e7ab88b)This image showcases a sleek and modern user interface for the "Speedy Shenanigans" website. It's designed as a starting screen or a central dashboard element to initiate the internet speed test.
 
 
-![Screenshot2](Add screenshot 2 here with pro
+![WhatsApp Image 2025-08-09 at 06 41 39_e03d02f2](https://github.com/user-attachments/assets/1af2ae1d-e502-428c-a65f-706f4c4d0c5b)This image captures the active monitoring screen of the "Speedy Shenanigans" website, showing what the user sees after they've started the test. It brilliantly delivers on the promise of the first screen.
 
-![Screenshot3](Add screenshot 3 here with proper name)
-*Add caption explaining what this shows*
+
+![WhatsApp Image 2025-08-09 at 06 42 14_7ac4ded1](https://github.com/user-attachments/assets/8f520714-af0a-4589-b997-aa2eecd3e1e4)This screenshot captures the dynamic state of the monitoring process, showing the application live in action. It builds upon the previous screen by demonstrating how the values update over time.
+
 
 # Diagrams
 ![Workflow](Add your workflow/architecture diagram here)
