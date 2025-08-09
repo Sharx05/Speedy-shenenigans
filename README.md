@@ -92,9 +92,7 @@ For Software:
 *Add caption explaining your workflow*
 
 # Video
-<video width="640" height="480" controls>
-  <source src="video/video.mp4" type="video/mp4">
-</video>
+video link :- (https://drive.google.com/drive/folders/1V2VKyZWHraJH1dgcKr58vR4ket9Fyuxk?usp=drive_link)
 
 ## Team Contributions
 - Shakirath ul mubashira : Desigining and Documentation
