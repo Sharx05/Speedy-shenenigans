@@ -81,11 +81,10 @@ npm run preview
 For Software:
 
 # Screenshots (Add at least 3)
-![Screenshot1](Add screenshot 1 here with proper name)
-*Add caption explaining what this shows*
+![WhatsApp Image 2025-08-09 at 06 40 47_250e309f](https://github.com/user-attachments/assets/65977c9a-a937-4cae-8a41-3c2d9e7ab88b)This image showcases a sleek and modern user interface for the "Speedy Shenanigans" website. It's designed as a starting screen or a central dashboard element to initiate the internet speed test.
 
-![Screenshot2](Add screenshot 2 here with proper name)
-*Add caption explaining what this shows*
+
+![Screenshot2](Add screenshot 2 here with pro
 
 ![Screenshot3](Add screenshot 3 here with proper name)
 *Add caption explaining what this shows*
