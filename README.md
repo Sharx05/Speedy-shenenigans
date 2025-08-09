@@ -19,7 +19,7 @@ Speedy Shenanigans is a web-based utility that reimagines the standard internet 
 The user should aware about the data speed
 
 ### The Solution (that nobody asked for)
-[How are you solving it? Keep it fun!]
+We made a website to make aware  the user's about the  data speed and we provide funny memme audios for a better and annoying experience 
 
 ## Technical Details
 ### Technologies/Components Used
