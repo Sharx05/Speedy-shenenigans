@@ -91,7 +91,10 @@ For Software:
 ![Workflow](Add your workflow/architecture diagram here)
 *Add caption explaining your workflow*
 
-
+# Video
+<video width="640" height="480" controls>
+  <source src="video/video.mp4" type="video/mp4">
+</video>
 
 ## Team Contributions
 - Shakirath ul mubashira : Desigining and Documentation
