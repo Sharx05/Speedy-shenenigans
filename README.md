@@ -13,7 +13,7 @@
 - Member 2: [Sharath H] - [College of Engineering Perumon]
 
 ### Project Description
-Speedy Shenanigans is a web-based utility that reimagines the standard internet speed test. Instead of just displaying numbers and graphs, our website measures a user's data transfer speed (download, upload, and latency) and provides real-time feedback through a library of funny and context-aware audio clips. The goal is to transform a mundane, technical task into an entertaining and memorable user experience.
+Speedy Shenanigans is a web-based utility that reimagines the standard internet speed test. Instead of just displaying numbers and graphs, our website measures a user's data transfer speed (download, upload, and latency) and provides real-time feedback through a library of funny and context-aware audio clips. The goal is to transform a mundane, technical task into an entertaining and memorable and annoying  user experience.
 
 ### The Problem (that doesn't exist)
 [What ridiculous problem are you solving?]
