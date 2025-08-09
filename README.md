@@ -24,10 +24,10 @@ We made a website to make aware  the user's about the  data speed and we provide
 ## Technical Details
 ### Technologies/Components Used
 For Software:
-- [Languages used]
-- [Frameworks used]
+- Html,css,typescript
+- vite
 - [Libraries used]
-- [Tools used]
+- Gemini, chatgpt,deepseek,meta,claude,github copilot
 
 For Hardware:
 - [List main components]
